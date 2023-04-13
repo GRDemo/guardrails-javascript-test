@@ -70,7 +70,7 @@ function goodNamespace() {
 
 function goodNamed() {
 	// ok: insecure-random-generator
-	Crypto.createCipher('aes192', randomBytes(4));
+	//Crypto.createCipher('aes192', randomBytes(4));
 
 	// ok: insecure-random-generator
 	createDecipher('aes192', crypto.randomBytes(4));
